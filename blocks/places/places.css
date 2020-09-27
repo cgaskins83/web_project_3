@@ -1,0 +1,7 @@
+.places{ 
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto 60%;
+    padding-left: 100px;
+    grid-gap: 40px;
+}

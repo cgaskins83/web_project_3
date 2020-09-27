@@ -1,0 +1,13 @@
+.main__subtitle{
+    margin: 0 auto;
+    max-width: 600px;
+    padding-top: 32px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+
+}

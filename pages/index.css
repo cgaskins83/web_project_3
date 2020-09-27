@@ -1,0 +1,187 @@
+@import url('../vendor/fonts/fonts.css');
+@import url('../vendor/normalize.css');
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/cover/__description/cover__description.css');
+@import url('../blocks/cover/__link/cover__link.css');
+@import url('../blocks/cover/__title/cover__title.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__links/footer__links.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__link/__copyright.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__lang-link/header__lang-link.css');
+@import url('../blocks/header/__lang-link/_line/header__lang-link_line.css');
+@import url('../blocks/header/__lang-links/header__lang-links.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__list/intro__list.css');
+@import url('../blocks/intro/__subtext/intro__subtext.css');
+@import url('../blocks/intro/__text1/intro__text.css');
+@import url('../blocks/intro/__title/intro__title.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/main/__subtitle/main__subtitle.css');
+@import url('../blocks/main/__title/main__title.css');
+@import url('../blocks/main/__image/main__image.css');
+@import url('../blocks/main/__caption/main__caption.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/page/__container/page__container.css');
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/place/place.css');
+@import url('../blocks/place/__image/place__image.css');
+@import url('../blocks/place/__title/place__title.css');
+@import url('../blocks/place/__website/place__website.css');
+@import url('../blocks/place/__website/_link/_link.css');
+@import url('../blocks/place/__website/_url-heading/_url-heading.css');
+@import url('../blocks/places/places.css');
+@import url('../blocks/places/__paragraph/places__paragraph.css');
+@import url('../blocks/places/__paragraph/_nh/_nh.css');
+
+
+
+@media screen and (max-width: 1120px) {
+    .cover__link{
+        min-height: 640px;
+    }   
+    
+   .page__container{
+    max-width: 928px;
+}
+
+    .photo-grid{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 300px 300px 300px; 
+        grid-template-rows: 225px 225px 225px 225px;
+        grid-gap: 16px;    
+        max-width: 300px;      
+    }
+
+    .header__lang-links{
+        display: flex;   
+        list-style: none;
+        margin-left: 400px;
+       }
+
+}
+
+.place__image{
+    max-width: 440px;
+}
+
+@media screen and (max-width: 860px) {
+    .cover__link{
+        min-height: 480px;
+    }   
+   .main__image{
+       min-height: 580px;
+       max-width: 928px;
+   } 
+
+   .page__container{
+    max-width: 928px;
+}
+
+    .photo-grid{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 352px 352px; 
+        grid-template-rows: 264px 264px 264px 264px 264px 264px 264px;
+        grid-gap: 0px;    
+        max-width: 300px;      
+    }
+
+    .header__lang-links{
+        display: flex;   
+        list-style: none;
+        margin-left: 400px;
+       }
+   
+    .places__paragraphs{
+        font-size: 16px;
+        max-width: 352px;
+    }  
+    
+}
+
+@media screen and (max-width: 425px) {
+    .page{ 
+        min-width: 320px;
+        text-align: left;
+
+    }
+    
+    .logo{
+        width: 156px; 
+        height: 36px;
+    }
+
+    .photo-grid{
+        display: block;
+        padding-top: 10px;
+    }
+
+    .places{
+        display: block
+
+    }
+    
+    .cover__link{
+        min-height: 320px;
+        
+    }   
+    .cover__title{
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+    }
+   
+    .cover__description{
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        max-width: 288px;
+    }
+    
+    .main__title{
+        font-size: 40px;
+        min-width: 288px;
+        min-height: 88px;
+        line-height: 44px;
+    }
+
+    .main__subtitle{
+        font-size: 16px;
+        min-width: 288px;
+        min-height: 40px;
+        line-height: 20px;
+        width: 288px;
+        height: 40px;
+        padding-bottom: 50px;
+    }
+
+    .header__lang-links{
+        margin-left: 90px;
+    }
+
+    .main__image{
+      min-width: 320px;
+       min-height: 200px;
+    }
+
+    .main__caption{
+        margin-left: 0;
+    }
+
+    .places{
+        padding-left: 0;
+    }
+
+    .footers__link{
+        display: flex;
+    }
+    
+    .__copyright{
+        margin: 78px;
+    }
+.
+
+}

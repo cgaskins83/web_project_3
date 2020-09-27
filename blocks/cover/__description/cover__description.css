@@ -1,0 +1,13 @@
+.cover__description{
+margin: 0;     
+position: relative;
+z-index: 2;    
+max-width: 320px;    
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+margin-bottom: 32px;
+}
