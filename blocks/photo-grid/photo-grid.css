@@ -6,3 +6,31 @@
     grid-gap: 3%;    
     max-width: 284px; 
 }
+
+@media screen and (max-width: 1120px) {
+    .photo-grid{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 300px 300px 300px; 
+        grid-template-rows: 225px 225px 225px 225px;
+        grid-gap: 16px;    
+        max-width: 300px;      
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .photo-grid{
+        display: grid;
+        grid-template-columns: 352px 352px; 
+        grid-template-rows: 264px 264px 264px 264px 264px 264px;
+        grid-gap: 0px;    
+        max-width: 300px;      
+    }
+}
+
+@media screen and (max-width: 425px){
+    .photo-grid{
+        display: block;
+        padding-top: 10px;
+    }
+}

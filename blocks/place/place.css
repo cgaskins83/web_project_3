@@ -1,4 +1,13 @@
-.place{
- 
-  
-}
+
+ @media screen and (max-width: 1120px){
+    .places{
+        padding-left: 0;
+        }
+ }
+
+ @media screen and (max-width: 425px){
+    .places{
+        display: block
+    }
+ }
+

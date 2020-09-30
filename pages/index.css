@@ -150,8 +150,7 @@ padding-left: 0;
     }
 
     .places{
-        display: block
-
+        display: block;
     }
     
     .cover__link{
@@ -194,7 +193,7 @@ padding-left: 0;
     }
 
     .main__image{
-        width: 435px;
+        width: 425px;
        min-height: 200px;
      
     }
@@ -203,8 +202,8 @@ padding-left: 0;
         margin-left: 0;
     }
 
-    .places{
-        padding-left: 0;
+    .place{
+        padding-left: 33px;
     }
 
     .footers__link{
@@ -225,5 +224,19 @@ padding-left: 0;
 
     .intro__subtext{
         max-width: 288px;
+    }
+
+    .place__title{
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .place__image{
+        width: 320px;
+        height: 320px;
+    }
+
+    .places__paragraphs{
+        margin-left: 25px;
     }
 }
