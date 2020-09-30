@@ -43,7 +43,7 @@
     }   
     
    .page__container{
-    max-width: 928px;
+    max-width: 1024px;
 }
 
     .photo-grid{
@@ -58,33 +58,33 @@
     .header__lang-links{
         display: flex;   
         list-style: none;
-        margin-left: 400px;
+        margin-left: 700px;
        }
 
 }
 
+.places{
+padding-left: 0;
+}
+
 .place__image{
-    max-width: 440px;
+    width: 440px;
 }
 
 @media screen and (max-width: 860px) {
     .cover__link{
         min-height: 480px;
+        
     }   
    .main__image{
        min-height: 580px;
-       max-width: 928px;
+       width: 768px;
    } 
 
-   .page__container{
-    max-width: 928px;
-}
-
     .photo-grid{
-        text-align: center;
         display: grid;
         grid-template-columns: 352px 352px; 
-        grid-template-rows: 264px 264px 264px 264px 264px 264px 264px;
+        grid-template-rows: 264px 264px 264px 264px 264px 264px;
         grid-gap: 0px;    
         max-width: 300px;      
     }
@@ -100,13 +100,43 @@
         max-width: 352px;
     }  
     
+    .main__title{
+        max-width: 720px;
+    }
+
+    .main__subtitle{
+        padding-bottom: 56px;
+    }
+
+    .intro__title{
+     margin-left: 0;
+    }
+
+    .intro__text{
+      margin-left: 0;
+    }
+
+    .intro__subtext{
+        margin-left: 0;
+    }
+
+    .intro__list{
+      padding-left: 0; 
+      margin-left: 0; 
+    }
+
+    .place__website{
+        max-width: 352px;
+    }
 }
 
 @media screen and (max-width: 425px) {
     .page{ 
         min-width: 320px;
-        text-align: left;
+    }
 
+    .page__container{
+        margin: 0;
     }
     
     .logo{
@@ -126,6 +156,7 @@
     
     .cover__link{
         min-height: 320px;
+        
         
     }   
     .cover__title{
@@ -163,8 +194,9 @@
     }
 
     .main__image{
-      min-width: 320px;
+        width: 435px;
        min-height: 200px;
+     
     }
 
     .main__caption{
@@ -182,6 +214,16 @@
     .__copyright{
         margin: 78px;
     }
-.
 
+    .intro__title{
+        max-width: 288px;
+    }
+
+    .intro__text{
+        max-width: 288px;
+    }
+
+    .intro__subtext{
+        max-width: 288px;
+    }
 }
