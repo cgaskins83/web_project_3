@@ -1,17 +1,25 @@
 .page__container{
-    max-width: 1184px;
+   max-width: 1184px;
     margin: 0 auto; 
-    padding: 0 auto;
 }
 
 @media screen and (max-width: 1120px){
     .page__container{
-        max-width: 1024px;
+        max-width: 928px;
     }
 }
 
+@media screen and (max-width: 860px){
+    .page__container{
+        max-width: 768px;
+    }
+    
+}
+
+
 @media screen and (max-width: 425px){
     .page__container{
-        margin: 0;
+        max-width: 320px;
+       
     }
 }

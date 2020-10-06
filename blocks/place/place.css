@@ -1,13 +1,17 @@
 
- @media screen and (max-width: 1120px){
-    .places{
-        padding-left: 0;
-        }
- }
+.place{ 
+    display: grid;
+    max-width: 100%;
+    margin: 0 auto;
+    grid-template-columns: 450px 1fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 40px;
+}
 
  @media screen and (max-width: 425px){
-    .places{
-        display: block
+    .place{
+        grid-template-columns: 1fr;
+        row-gap: normal;
     }
  }
 

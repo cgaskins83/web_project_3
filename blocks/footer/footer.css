@@ -1,4 +1,10 @@
 .footer{
-   padding-bottom: 50px;
+   display: flex;
+   justify-content: space-between;
    max-width: 1184px;
-}    
+   margin: 0 auto; 
+   padding-top: 25px; 
+  
+}   
+
+

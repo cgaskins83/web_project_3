@@ -9,3 +9,9 @@
     text-transform: uppercase;
     color: white;
 }
+
+@media screen and (max-width: 425px){
+    .main__caption{
+        margin-left: 75px;
+    }
+}

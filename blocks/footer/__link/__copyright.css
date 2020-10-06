@@ -1,9 +1,21 @@
 
-.__copyright{
-    float: right;
+.footer__copyright{ 
     margin: 0;
-    color: white;
+    line-height: 16px;
+}
+
+
+@media screen and (max-width: 860px){
+    .footer__copyright{
+        
+    }
+}  
+
+
+@media screen and (max-width: 425px) {
+    .footer__copyright{
+    margin-left: 71px;
+    margin-top: initial;
    }
-
-
+}
    
