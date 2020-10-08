@@ -12,10 +12,4 @@
 }  
 
 
-@media screen and (max-width: 425px) {
-    .footer__copyright{
-    margin-left: 71px;
-    margin-top: initial;
-   }
-}
    

@@ -7,4 +7,19 @@
   
 }   
 
+@media screen and (max-width: 860px){
+   .footer{
+      max-width: 750px;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   .footer {
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 188px;
+}
+   }
+
+
 

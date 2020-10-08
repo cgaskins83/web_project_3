@@ -1,3 +1,10 @@
 .place__website{
  text-align: justify;
 }
+
+
+@media screen and (max-width: 425px){
+    .place__website{
+        display: none;
+    }
+}
