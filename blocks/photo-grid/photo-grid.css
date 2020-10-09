@@ -21,8 +21,7 @@
     .photo-grid{
         display: grid;
         grid-template-columns: 352px 352px; 
-        grid-template-rows: 264px 264px 264px 264px 264px 264px;
-        grid-gap: 0px;    
+        grid-template-rows: 264px 264px 264px 264px 264px 264px;    
            
     }
 }
@@ -32,5 +31,6 @@
         display: block;
         padding-top: 10px;
         padding-left: 0;
+        padding-right: 25px;
     }
 }

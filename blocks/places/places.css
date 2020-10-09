@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 40px;
+    margin-left: 100px;
 }
 
 @media screen and (max-width: 1120px){
@@ -13,8 +14,8 @@
  }
 
  @media screen and (max-width: 425px){
-    flex-direction: column;
-    width: 100%;
-    margin: 60px auto;
-    row-gap: 50px;
+    .places {
+        margin-top: 64px;
+        margin-left: 0; 
+     }
  }

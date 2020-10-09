@@ -75,19 +75,6 @@ a.cover__link:after{
     
         min-height: 200px;
     } 
-    a.cover__link:after{
-        content: "";
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: black;
-        opacity: .3;
-    }
-    
-    .cover__link:hover{
-        opacity: .7;
-    }  
+   
 }  
 
