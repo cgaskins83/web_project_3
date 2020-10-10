@@ -5,10 +5,14 @@
     margin-left: 100px;
 }
 
+@media screen and (max-width: 860px){
+    .intro__subtext{
+        margin-left: 0;
+    }
+}
+
 
 @media screen and (max-width: 425px){
     .intro__subtext{
        line-height: 20px;
-       margin-left: 0; 
-    }
 }

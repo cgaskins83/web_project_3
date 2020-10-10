@@ -4,20 +4,8 @@
  
 }
 
-@media screen and (max-width: 1120px){
-    .header__lang-links{
-      
-        
-    }
-      
-}
 
 
-@media screen and (max-width: 860px){
-    .header__lang-links{
-       
-    }
-}
 
 @media screen and (max-width: 425px) {
     .header__lang-links{ 

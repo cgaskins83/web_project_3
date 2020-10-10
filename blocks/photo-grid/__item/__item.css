@@ -1,5 +1,28 @@
-.photo-grid__item{ 
-    width: 100%;
-    height: 100%;
+
+
+.photo-grid__item{
+    height: 213px;
+    max-width: 288px;
     object-fit: cover; 
+}
+
+@media screen and (max-width: 1120px){
+    .photo-grid__item{
+        width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 860px){
+
+
+    .photo-grid__item{
+        width: 352px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .photo-grid__item{
+        width: 288px;
+    }
 }

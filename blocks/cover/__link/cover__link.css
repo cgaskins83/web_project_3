@@ -14,7 +14,7 @@
     position: relative;   
 }
  
-a.cover__link:after{
+.cover__link:after{
     content: "";
     width: 100%;
     height: 100%;
@@ -34,7 +34,7 @@ a.cover__link:after{
     .cover__link{
         min-height: 640px;
     } 
-    a.cover__link:after{
+    .cover__link:after{
         content: "";
         width: 100%;
         height: 100%;
@@ -54,7 +54,7 @@ a.cover__link:after{
         .cover__link{
             min-height: 480px;       
     }  
-    a.cover__link:after{
+    .cover__link:after{
         content: "";
         width: 100%;
         height: 100%;

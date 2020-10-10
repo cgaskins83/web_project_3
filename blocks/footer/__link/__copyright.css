@@ -1,13 +1,14 @@
 
-.footer__copyright{ 
+.link__copyright{ 
     margin: 0;
     line-height: 16px;
+    font-size: 14px;
 }
 
 
-@media screen and (max-width: 860px){
-    .footer__copyright{
-        
+@media screen and (max-width: 425px){
+    .link__copyright{
+        line-height: 14px;
     }
 }  
 

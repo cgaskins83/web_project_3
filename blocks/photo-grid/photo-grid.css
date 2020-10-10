@@ -20,8 +20,8 @@
 @media screen and (max-width: 860px) {
     .photo-grid{
         display: grid;
-        grid-template-columns: 352px 352px; 
-        grid-template-rows: 264px 264px 264px 264px 264px 264px;    
+        grid-template-columns: 309px 309px; 
+        grid-template-rows: 220px 220px 220px 220px 220px 220px;    
            
     }
 }
@@ -30,7 +30,7 @@
     .photo-grid{
         display: block;
         padding-top: 10px;
-        padding-left: 0;
+        padding-left: 40px;
         padding-right: 25px;
     }
 }
