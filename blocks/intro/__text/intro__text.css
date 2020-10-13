@@ -9,6 +9,12 @@
     color: white;
 }
 
+@media screen and (max-width: 1120px){
+  .intro__text{
+    margin-left: 60px;
+  }
+}
+
 @media screen and (max-width: 860px){
   .intro__text{
     margin-left: 0;

@@ -5,6 +5,13 @@
     margin-left: 100px;
 }
 
+
+@media screen and (max-width: 1120px){
+    .intro__subtext{
+        margin-left: 60px;
+    }
+}
+
 @media screen and (max-width: 860px){
     .intro__subtext{
         margin-left: 0;

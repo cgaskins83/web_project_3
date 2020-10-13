@@ -1,24 +1,25 @@
 .main__caption{
-    margin-left: 180px;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
     line-height: 14px;
     letter-spacing: .15em;
     text-transform: uppercase;
-
+    align-self: end;
+    margin-left: 125px;
 }
 
 @media screen and (max-width: 1120px){
     .main__caption{
-        margin-left: 108px;
+        margin-left: 65px;
     }
 }
 
 
-@media screen and (max-width: 860px){
+@media screen and (max-width: 425px){
     .main__caption{
-        margin-left: 50px;
+        margin-left: 5px;
     }
 }
+
 

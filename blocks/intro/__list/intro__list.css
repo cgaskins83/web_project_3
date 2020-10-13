@@ -9,6 +9,12 @@
     margin-left: 60px;
 }
 
+@media screen and (max-width: 1120px){
+    .intro__list{
+        margin-left: 15px;
+    }
+}
+
 
 @media screen and (max-width: 860px){
     .intro__list {

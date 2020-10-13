@@ -5,29 +5,16 @@
     font-size: 96px;
     line-height: 100px;
     max-width: 720px;
-    margin-left: 300px;
     text-align: center;
-    padding-top: 127px;
-    margin-left: 260px;
-}
+    padding-top: 54px;
+    padding-bottom: 32px;
+    margin: 0 auto;
 
-@media screen and (max-width: 1120px){
-    .main__title{   
-        margin-left: 200px
-    }
-}
-
-
-@media screen and (max-width: 860px){
-    .main__title{
-        margin-left: 95px;
-    }
 }
 
 
 @media screen and (max-width: 425px) {
 .main__title{
-    margin: 0 auto;
     font-size: 40px;
     max-width: 288px;
     line-height: 44px;
