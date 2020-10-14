@@ -3,7 +3,7 @@
     max-width: 100%;
     font-weight: 400;
     font-size: 18px;
-    line-height: 163%;
+    line-height: 29.34px;
   
 }
 
@@ -16,18 +16,15 @@
 @media screen and (max-width: 860px){
     .places__paragraph{
         max-width: 352px;
-        line-height: 26px;
+        line-height: 26.08px;
         font-size: 16px;
     }  
 }
 
 
 @media screen and (max-width: 425px){
-
     .places__paragraph{
         max-width: 288px;
-        height: 235px;
-        font-size: 16px;
-        
+        font-size: 16px; 
     }
 }
