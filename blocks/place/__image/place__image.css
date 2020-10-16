@@ -13,5 +13,6 @@
   .place__image{
     width: 320px;
     height: 320px;
+    margin-left: 20px;
   } 
 }

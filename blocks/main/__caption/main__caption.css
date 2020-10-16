@@ -6,19 +6,19 @@
     letter-spacing: .15em;
     text-transform: uppercase;
     align-self: end;
-    margin-left: 125px;
+    
 }
 
-@media screen and (max-width: 1120px){
+@media screen and (max-width: 860px){
     .main__caption{
-        margin-left: 65px;
+        margin-left: 0px;
     }
 }
 
 
 @media screen and (max-width: 425px){
     .main__caption{
-        margin-left: 5px;
+        margin-left: 22px;
     }
 }
 

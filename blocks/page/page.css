@@ -10,3 +10,18 @@
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
+
+
+
+@media screen and (max-width: 860px){
+    .page{
+        margin-left: 0px;
+    }
+}
+
+
+@media screen and (max-width: 425px){
+    .page{
+        margin-left: 0;
+    }
+}
