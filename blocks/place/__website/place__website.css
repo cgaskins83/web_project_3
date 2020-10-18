@@ -1,5 +1,6 @@
 .place__website{
- text-align: justify;
+    align-self: end;
+    padding-bottom: 48px;
 }
 
 

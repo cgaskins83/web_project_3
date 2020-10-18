@@ -1,6 +1,6 @@
 .places__paragraph{
-    padding-top: 5%;
-    max-width: 100%;
+    margin-top: 0;
+    max-width: 484px;
     font-weight: 400;
     font-size: 18px;
     line-height: 29.34px;
@@ -9,13 +9,13 @@
 
 @media screen and (max-width: 1120px){
     .places__paragraph{
-        max-width: 456px;
+        width: 456px;
     }
 }
 
 @media screen and (max-width: 860px){
     .places__paragraph{
-        max-width: 352px;
+        width: 352px;
         line-height: 26.08px;
         font-size: 16px;
     }  
@@ -24,9 +24,10 @@
 
 @media screen and (max-width: 425px){
     .places__paragraph{
-        max-width: 288px;
+        width: 288px;
         font-size: 16px; 
         margin-left: 40px;
-    }
+        line-height: 163%;
     }
 }
+

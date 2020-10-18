@@ -3,14 +3,13 @@
     display: grid;
     max-width: 100%;
     margin: 0 auto;
-    grid-template-columns: 440px 1fr;
-    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
     grid-column-gap: 40px;
 }
 
 @media screen and (max-width: 860px){
     .place{ 
-        grid-column-gap: 10px;
+        grid-column-gap: 28px;
     }
 }
 
