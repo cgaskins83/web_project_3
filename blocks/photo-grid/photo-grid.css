@@ -1,13 +1,13 @@
 .photo-grid{
-    max-width: 1184px;
+    width: 1184px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
     grid-template-rows: repeat(3, auto);
-    grid-gap: 10px;
+    grid-gap: 16px;
     margin-left: 15px;
     list-style: none;
-    padding: 0;
-    margin: 0;
+    
+    
 }
 
 @media screen and (max-width: 1120px) {
@@ -30,8 +30,7 @@
     .photo-grid{
      row-gap: 12px;
      width: 288px;
-     margin-left: 25px;
-     
+
     }
 }
 

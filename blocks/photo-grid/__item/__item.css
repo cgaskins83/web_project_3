@@ -2,7 +2,7 @@
 
 .photo-grid__item{
     height: 213px;
-    max-width: 284px;
+    max-width: 100%;
     
 }
 

@@ -1,8 +1,7 @@
 .main__image { 
-     margin: 0 auto;
-     max-width: 984px;
-     max-height: 615px;
-   
+     
+     width: 100%;
+    
 }
 
 @media screen and (max-width: 1120px){

@@ -24,10 +24,11 @@
 
 @media screen and (max-width: 425px){
     .places__paragraph{
-        width: 288px;
-        font-size: 16px; 
-        margin-left: 40px;
-        line-height: 163%;
+       
+        max-width: 288px;
+        margin:  25px auto;
+        
+       
     }
 }
 
