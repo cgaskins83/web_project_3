@@ -1,6 +1,6 @@
 .place__website{
-    align-self: auto;
-    padding-top: 2%;
+    align-self: flex-end;
+    margin-bottom: 12%;
    
 }
 
