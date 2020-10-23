@@ -7,6 +7,12 @@
     grid-column-gap: 40px;
 }
 
+@media screen and (max-width: 1120px){
+    .place{
+        grid-column-gap: 25px;
+    }
+}
+
 @media screen and (max-width: 860px){
     .place{ 
         grid-column-gap: 28px;
