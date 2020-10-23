@@ -7,8 +7,9 @@
     line-height: 36px;
     text-align: center;
     color: #FFFFFF;
-    padding-bottom: 64px;
+    padding-top: 20px;
     margin: 0 auto;
+   
 }
 
 @media screen and (max-width: 425px){

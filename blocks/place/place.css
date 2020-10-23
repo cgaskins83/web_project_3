@@ -17,6 +17,7 @@
     .place{
         grid-template-columns: 1fr;
         row-gap: normal;
+        margin: 0 12px 12px;
     }
  }
 

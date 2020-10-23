@@ -1,11 +1,7 @@
 .place__website_link{
-    padding-top: 20px;
-    font-family: 'Inter','Arial', sans-serif;
-    font-style: normal;
-    font-weight: normal;
+   
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
-     
     color: #FFFFFF;  
 }
